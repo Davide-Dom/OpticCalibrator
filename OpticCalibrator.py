@@ -1,6 +1,4 @@
 # OpticCalibrator.py (v5.0)
-# FIX: Riaggiunto il metodo _draw_text e rimosso i riferimenti esterni
-# per rendere questa libreria completamente autonoma e riutilizzabile.
 
 import time
 import cv2
@@ -511,3 +509,4 @@ class OpticCalibrator:
             dst = dst[y:y+h, x:x+w]
             return dst
         return frame
+
