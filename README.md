@@ -16,15 +16,11 @@ Gestione File: Salva e carica i parametri di calibrazione su un file .npz, elimi
 Correzione: Applica i parametri calcolati per correggere in tempo reale la distorsione ottica di un fotogramma.
 
 Metodi Principali
-calibrate_optics_automatically(): Avvia il processo di calibrazione automatica, ideale per telecamere PTZ.
-
-calibrate_optics_manually(): Avvia il processo di calibrazione manuale.
-
-load_calibration(): Carica i parametri di calibrazione da un file.
-
-save_calibration(): Salva i parametri su un file.
-
-correct_frame(): Applica la correzione della distorsione a un fotogramma.
+    calibrate_optics_automatically(): Avvia il processo di calibrazione automatica, ideale per telecamere PTZ.
+    calibrate_optics_manually(): Avvia il processo di calibrazione manuale.
+    load_calibration(): Carica i parametri di calibrazione da un file.
+    save_calibration(): Salva i parametri su un file.
+    correct_frame(): Applica la correzione della distorsione a un fotogramma.
 
 #--------------------------------------------------------------------------------------------
 
