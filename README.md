@@ -26,7 +26,7 @@ save_calibration(): Salva i parametri su un file.
 
 correct_frame(): Applica la correzione della distorsione a un fotogramma.
 
---------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------
 
 # Esempio 1: Eseguire una calibrazione automatica per una telecamera PTZ
 
@@ -35,8 +35,8 @@ from Cal_ReolinkE1_Config import Direction
 from OpticCalibrator import OpticCalibrator
 import tkinter as tk
 
-# Aggiunto per far funzionare l'esempio. In un'applicazione reale,
-# la GUI dovrebbe gestire la connessione
+# Aggiunto per far funzionare l'esempio. In un'applicazione reale, la GUI dovrebbe gestire la connessione
+
 class MockCamera:
     def capture_frame(self):
         # Sostituisci con la logica della tua camera per catturare un frame
